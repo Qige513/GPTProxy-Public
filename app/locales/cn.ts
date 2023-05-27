@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "欢迎使用最新版Qige AI助手。访问密码不正确，请前往[设置](/#/settings)页输入正确的访问密码，或者填入你从[QStore](https://qstore.eu.org)购买的 OpenAI API Key。如果有能力的话，请赞助我们！[爱发电](https://afdian.net/@Qige513)",
+      "欢迎使用最新版Qige AI助手。访问密码不正确，请前往[设置](/#/settings)页输入正确的访问密码，或者填入你从[QStore](https://qstore.eu.org)购买的 OpenAI API Key。为了服务长期持续下去，请赞助我们！[爱发电](https://afdian.net/@Qige513)、[赞助邮箱](mailto:zanzhu@qige.dev)",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -98,6 +98,10 @@ const cn = {
     Update: {
       Version: (x: string) => `当前版本：${x}`,
       IsLatest: "已是最新版本",
+      CheckUpdate: "检查更新",
+      IsChecking: "正在检查更新...",
+      FoundUpdate: (x: string) => `发现新版本：${x}`,
+      GoToUpdate: "前往更新",
     },
     SendKey: "发送键",
     Theme: "主题",
