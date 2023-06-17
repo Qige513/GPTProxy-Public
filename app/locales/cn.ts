@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "欢迎使用最新版Qige AI助手。访问密码不正确，请前往[设置](/#/settings)页输入正确的访问密码，或者填入你从[QStore](https://qstore.eu.org)购买的 OpenAI API Key。为了服务长期持续下去，请赞助我们！[爱发电](https://afdian.net/@Qige513)、[赞助邮箱](mailto:zanzhu@qige.dev)",
+      "欢迎使用最新版Qige AI助手。访问密码不正确，请前往[设置](/#/settings)页输入正确的访问密码，或者填入你从[QStore](https://qstore.eu.org)购买的 OpenAI API Key。为了服务长期持续下去，请赞助我们！[爱发电](https://afdian.net/@Qige513)、[赞助邮箱](mailto:zanzhu@qige.dev)![赞助码](https://tucdn.wpon.cn/2023/06/17/1ecd19ae6e3d2.png)",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -101,7 +101,7 @@ const cn = {
       CheckUpdate: "检查更新",
       IsChecking: "正在检查更新...",
       FoundUpdate: (x: string) => `发现新版本：${x}`,
-      GoToUpdate: "前往更新",
+      GoToUpdate: "不用更新",
     },
     SendKey: "发送键",
     Theme: "主题",
@@ -176,7 +176,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "我是Qige AI公共小助手,有什么可以帮你的吗？如果有需要，你可以联系我进行私人定制哦！",
+    BotHello: "我是Qige AI公共小助手,有什么可以帮你的吗？如果有需要，你可以联系我进行私人定制哦！![赞助码](https://tucdn.wpon.cn/2023/06/17/1ecd19ae6e3d2.png)",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
