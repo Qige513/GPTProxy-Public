@@ -121,7 +121,7 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>Qige AI</div>
         <div className={styles["sidebar-sub-title"]}>
-          私人AI助手，邮箱：aip@qige.dev，广告招租
+          免费的AI助手，开发者邮箱：aip@qige.dev，广告招租，长期免费
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -146,9 +146,9 @@ export function SideBar(props: { className?: string }) {
       </div>
       <IconButton
         icon={<PluginIcon />}
-        text={shouldNarrow ? undefined :  'GPT账号'}
+        text={shouldNarrow ? undefined :  'LetUsShop'}
         className={styles["sidebar-bar-button"]}
-        onClick={() => window.location.href = 'https://qstore.eu.org'}
+        onClick={() => window.location.href = 'https://pro.qstore.eu.org'}
         shadow
        />
 
